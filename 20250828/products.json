@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "Notebook Dell",
+        "preco": 2500.00,
+        "categoria": "Eletrônicos"
+    },
+    {
+        "id": 2,
+        "nome": "Mouse Gamer",
+        "preco": 89.90,
+        "categoria": "Acessórios"
+    },
+    {
+        "id": 3,
+        "nome": "Teclado Mecânico",
+        "preco": 299.00,
+        "categoria": "Acessórios"
+    },
+    {
+        "id": 4,
+        "nome": "Monitor 24\"",
+        "preco": 450.00,
+        "categoria": "Eletrônicos"
+    },
+    {
+        "id": 5,
+        "nome": "Webcam HD",
+        "preco": 120.00,
+        "categoria": "Acessórios"
+    }
+]
