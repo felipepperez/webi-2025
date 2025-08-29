@@ -8,3 +8,13 @@ function loadProducts()
     }
     return [];
 }
+
+function encontrarProdutoPorId($produtos, $id)
+{
+    foreach ($produtos as $produto) {
+        if ($produto["id"] == $id) {
+            return $produto;
+        }
+    }
+    return null;
+}

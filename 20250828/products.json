@@ -1,32 +1,92 @@
 [
     {
-        "id": 1,
+        "id": "550e8400-e29b-41d4-a716-446655440001",
         "nome": "Notebook Dell",
         "preco": 2500.00,
         "categoria": "Eletrônicos"
     },
     {
-        "id": 2,
+        "id": "550e8400-e29b-41d4-a716-446655440002",
         "nome": "Mouse Gamer",
         "preco": 89.90,
         "categoria": "Acessórios"
     },
     {
-        "id": 3,
+        "id": "550e8400-e29b-41d4-a716-446655440003",
         "nome": "Teclado Mecânico",
         "preco": 299.00,
         "categoria": "Acessórios"
     },
     {
-        "id": 4,
+        "id": "550e8400-e29b-41d4-a716-446655440004",
         "nome": "Monitor 24\"",
         "preco": 450.00,
         "categoria": "Eletrônicos"
     },
     {
-        "id": 5,
+        "id": "550e8400-e29b-41d4-a716-446655440005",
         "nome": "Webcam HD",
         "preco": 120.00,
         "categoria": "Acessórios"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440006",
+        "nome": "Smartphone Samsung Galaxy",
+        "preco": 1800.00,
+        "categoria": "Eletrônicos"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440007",
+        "nome": "Fone de Ouvido Bluetooth",
+        "preco": 150.00,
+        "categoria": "Acessórios"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440008",
+        "nome": "Licença Windows 11 Pro",
+        "preco": 299.00,
+        "categoria": "Software"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440009",
+        "nome": "Livro: Programação PHP",
+        "preco": 89.90,
+        "categoria": "Livros"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440010",
+        "nome": "Luminária de Mesa LED",
+        "preco": 75.50,
+        "categoria": "Casa"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440011",
+        "nome": "Tablet iPad",
+        "preco": 3200.00,
+        "categoria": "Eletrônicos"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440012",
+        "nome": "Suporte para Notebook",
+        "preco": 45.00,
+        "categoria": "Acessórios"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440013",
+        "nome": "Licença Adobe Photoshop",
+        "preco": 89.90,
+        "categoria": "Software"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440014",
+        "nome": "Livro: Design de Interfaces",
+        "preco": 120.00,
+        "categoria": "Livros"
+    },
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440015",
+        "nome": "Organizador de Cabos",
+        "preco": 25.00,
+        "categoria": "Casa"
     }
 ]
