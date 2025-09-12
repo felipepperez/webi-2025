@@ -87,7 +87,7 @@ $categorias = array_unique(array_column($products, 'categoria'));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie e Session</title>
-    <link rel="stylesheet" href="/20250828/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
