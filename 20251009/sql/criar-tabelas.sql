@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(30) NOT NULL,
     idade INT NOT NULL,
     cidade VARCHAR(50) NOT NULL,
     data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -41,15 +42,15 @@ CREATE TABLE IF NOT EXISTS pedidos (
 );
 
 -- Inserir dados de exemplo na tabela usuários
-INSERT INTO usuarios (nome, email, idade, cidade) VALUES
-('João Silva', 'joao@email.com', 25, 'São Paulo'),
-('Maria Santos', 'maria@email.com', 30, 'Rio de Janeiro'),
-('Pedro Costa', 'pedro@email.com', 28, 'Belo Horizonte'),
-('Ana Oliveira', 'ana@email.com', 35, 'Salvador'),
-('Carlos Ferreira', 'carlos@email.com', 22, 'São Paulo'),
-('Lucia Mendes', 'lucia@email.com', 40, 'Brasília'),
-('Roberto Lima', 'roberto@email.com', 33, 'Fortaleza'),
-('Fernanda Souza', 'fernanda@email.com', 27, 'Recife');
+INSERT INTO usuarios (nome, email, senha, idade, cidade) VALUES
+('João Silva', 'joao@email.com', '1f3870be274f6c49b3e31a0c6728957f', 25, 'São Paulo'),
+('Maria Santos', 'maria@email.com','1f3870be274f6c49b3e31a0c6728957f', 30, 'Rio de Janeiro'),
+('Pedro Costa', 'pedro@email.com','1f3870be274f6c49b3e31a0c6728957f', 28, 'Belo Horizonte'),
+('Ana Oliveira', 'ana@email.com','1f3870be274f6c49b3e31a0c6728957f', 35, 'Salvador'),
+('Carlos Ferreira', 'carlos@email.com','1f3870be274f6c49b3e31a0c6728957f', 22, 'São Paulo'),
+('Lucia Mendes', 'lucia@email.com','1f3870be274f6c49b3e31a0c6728957f', 40, 'Brasília'),
+('Roberto Lima', 'roberto@email.com','1f3870be274f6c49b3e31a0c6728957f', 33, 'Fortaleza'),
+('Fernanda Souza', 'fernanda@email.com','1f3870be274f6c49b3e31a0c6728957f', 27, 'Recife');
 
 -- Inserir dados de exemplo na tabela produtos
 INSERT INTO produtos (nome, descricao, preco, categoria, estoque) VALUES

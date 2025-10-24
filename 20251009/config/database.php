@@ -90,7 +90,7 @@ class Database
                     $sql .= " OFFSET $offset";
                 }
             }
-
+            
             $stmt = $this->conn->prepare($sql);
             $stmt->execute($params);
 
